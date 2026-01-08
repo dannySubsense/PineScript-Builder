@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+exclude = '(/pinescript_builder/|/docs/|/__pycache__/)'
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+extend-exclude = ["pinescript_builder", "__pycache__"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_unused_configs = true

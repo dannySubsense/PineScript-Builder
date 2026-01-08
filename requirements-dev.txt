@@ -1,0 +1,4 @@
+black==24.4.2
+ruff
+pytest
+mypy
