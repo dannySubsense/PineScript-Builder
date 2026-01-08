@@ -1,0 +1,668 @@
+[
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/alerts",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/backgrounds",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/bar-coloring",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/bar-plotting",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/bar-states",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/chart-information",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/colors",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/fills",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/formatting-values",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/inputs",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/levels",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/libraries",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/lines-and-boxes",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/non-standard-charts-data",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/other-timeframes-and-data",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/plots",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/repainting",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/sessions",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/strategies",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/tables",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/text-and-shapes",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/time",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/concepts/timeframes",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/editor-release-notes",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/error-messages",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/alerts",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/data-structures",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/functions",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/general",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/indicators",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/other-data-and-timeframes",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/faq/programming",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/arrays",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/built-ins",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/conditional-structures",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/declaration-statements",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/enums",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/execution-model",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/identifiers",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/loops",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/maps",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/matrices",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/methods",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/objects",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/operators",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/pine-grammar",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/script-structure",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/time-series",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/type-system",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/user-defined-functions",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/language/variable-declarations",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/migration-guides",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/migration-guides/to-pine-version-3",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/migration-guides/to-pine-version-4",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/migration-guides/to-pine-version-5",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/primer",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/primer/first-indicator",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/primer/first-steps",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/primer/next-steps",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/public-library",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/release-notes",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/welcome",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/where-can-i-get-more-information",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/writing",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/writing/debugging",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/writing/limitations",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/writing/profiling-and-optimization",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/writing/publishing",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-docs/v5/writing/style-guide",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "sitemap",
+    "doc_type": "guide",
+    "pine_version": "v5",
+    "segmentation_strategy": null,
+    "source_entry_point": "https://www.tradingview.com/pine-script-docs"
+  },
+  {
+    "canonical_url": "https://www.tradingview.com/pine-script-reference/v6",
+    "discovered_at": "2026-01-08T17:44:51.678283Z",
+    "discovery_method": "single_page_reference",
+    "doc_type": "reference",
+    "pine_version": "v6",
+    "segmentation_strategy": "anchor_based",
+    "source_entry_point": "https://www.tradingview.com/pine-script-reference/v6"
+  }
+]
