@@ -2,6 +2,10 @@
 artifacts/
 normalized/
 raw/rendered/**
+!raw/rendered/
+!raw/rendered/*/
+!raw/rendered/*/reference/
+!raw/rendered/*/reference/*/
 !raw/rendered/*/reference/*/reference.html
 eval/
 docs/pw.md
