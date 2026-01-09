@@ -1,0 +1,29 @@
+{
+  "anchor_count_total": 0,
+  "anchor_counts_by_prefix": {},
+  "artifact_checksum_sha256": "71c6cb276d13d7a91df400538ba58565837c6943e6c3415ab8e51a5f488a0151",
+  "artifact_path": "raw/rendered/v6/guides/20260109T135601Z/pine-script-docs__language__conditional-structures.html",
+  "artifact_size_bytes": 124957,
+  "browser_name": "chromium",
+  "browser_version": "unknown",
+  "canonical_url": "https://www.tradingview.com/pine-script-docs/language/conditional-structures/",
+  "capture_method": "rendered_playwright",
+  "capture_timestamp": "2026-01-09T13:57:54.482705Z",
+  "doc_type": "guide",
+  "locale": "en-US",
+  "manifest_version": "1.0",
+  "max_wait_seconds": 60,
+  "notes": "anchors_not_used",
+  "pine_version": "v6",
+  "post_render_delay_ms": 1000,
+  "render_engine": "playwright",
+  "render_wait_strategy": "domcontentloaded",
+  "run_id": "20260109T135601Z",
+  "status": "complete",
+  "timezone": "UTC",
+  "user_agent": "PineScript-Builder rendered acquisition/0.1",
+  "viewport": {
+    "height": 900,
+    "width": 1440
+  }
+}
