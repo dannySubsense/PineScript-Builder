@@ -1,7 +1,8 @@
 # Pipeline artifacts
 artifacts/
 normalized/
-raw/rendered/
+raw/rendered/**
+!raw/rendered/*/reference/*/reference.html
 eval/
 docs/pw.md
 pinescript_builder/
