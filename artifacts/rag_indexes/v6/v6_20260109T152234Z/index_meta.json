@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-01-09T15:22:34.325480Z",
+  "guide_run_ids": [
+    "20260109T135601Z"
+  ],
+  "index_id": "v6_20260109T152234Z",
+  "input_files": [
+    {
+      "path": "/home/d-tuned/TradingView_DevDoc_Ingestion/normalized/v6/reference_symbols.jsonl",
+      "row_count": 941
+    },
+    {
+      "path": "/home/d-tuned/TradingView_DevDoc_Ingestion/normalized/v6/guide_sections.jsonl",
+      "row_count": 1241
+    }
+  ],
+  "pine_version": "v6",
+  "reference_run_ids": [
+    "manual_baseline"
+  ],
+  "total_chunks": 2182
+}
