@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-01-09T23:15:59.819499Z",
+  "index_id": "v5_20260109T231559Z",
+  "input_files": {
+    "normalized/v5/reference_symbols.jsonl": 866
+  },
+  "pine_version": "v5",
+  "reference_run_ids": [
+    "manual_baseline"
+  ],
+  "total_chunks": 866
+}
