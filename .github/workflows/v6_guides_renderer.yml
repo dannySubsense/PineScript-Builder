@@ -30,7 +30,7 @@ jobs:
           from collections import deque
           from datetime import datetime, timezone
           from urllib.parse import urlparse, urljoin
-          from pathlib import Path
+          from pathlib import Path as PathlibPath
           from playwright.sync_api import sync_playwright
 
           ENTRY_URL = "https://www.tradingview.com/pine-script-docs/welcome/"
@@ -70,7 +70,7 @@ jobs:
               return path.replace("/", "__")
 
           run_id = utc_run_id()
-          output_root = Path("raw") / "rendered" / "v6" / "guides" / run_id
+          output_root = PathlibPath("raw") / "rendered" / "v6" / "guides" / run_id
           output_root.mkdir(parents=True, exist_ok=True)
 
           with sync_playwright() as p:
@@ -115,13 +115,13 @@ jobs:
 
                   parsed = urlparse(canon)
                   slug = slugify(parsed.path)
-                  html_path = output_root / f"{slug}.html"
-                  manifest_path = output_root / f"{slug}.manifest.json"
+                  html_file = output_root / f"{slug}.html"
+                  manifest_file = output_root / f"{slug}.manifest.json"
 
                   html_bytes = html.encode("utf-8")
                   checksum = hashlib.sha256(html_bytes).hexdigest()
 
-                  with html_path.open("wb") as handle:
+                  with html_file.open("wb") as handle:
                       handle.write(html_bytes)
 
                   manifest = {
@@ -146,27 +146,27 @@ jobs:
                       "post_render_delay_ms": 1000,
                       "anchor_count_total": 0,
                       "anchor_counts_by_prefix": {},
-                      "artifact_path": str(html_path),
+                      "artifact_path": str(html_file),
                       "artifact_size_bytes": len(html_bytes),
                       "artifact_checksum_sha256": checksum,
                       "status": "complete",
                       "notes": "anchors_not_used",
                   }
 
-                  with manifest_path.open("w", encoding="utf-8") as handle:
+                  with manifest_file.open("w", encoding="utf-8") as handle:
                       json.dump(manifest, handle, indent=2, sort_keys=True)
                       handle.write("\n")
 
-                  rendered.append((canon, html_path, manifest_path))
+                  rendered.append((canon, html_file, manifest_file))
 
               browser.close()
 
           if not rendered:
               raise SystemExit("no_guides_rendered")
 
-          for _, html_path, manifest_path in rendered:
-              if not html_path.exists() or not manifest_path.exists():
-                  raise SystemExit(f"missing_artifact:{html_path}")
+          for _, html_file, manifest_file in rendered:
+              if not html_file.exists() or not manifest_file.exists():
+                  raise SystemExit(f"missing_artifact:{html_file}")
           PY
 
       - name: Commit artifacts
