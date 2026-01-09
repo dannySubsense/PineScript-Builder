@@ -1,6 +1,9 @@
 # Pipeline artifacts
 artifacts/
-normalized/
+normalized/**
+!normalized/
+!normalized/v5/
+!normalized/v5/reference_symbols.jsonl
 raw/rendered/**
 !raw/rendered/
 !raw/rendered/*/
