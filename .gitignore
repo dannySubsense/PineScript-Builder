@@ -3,3 +3,8 @@ artifacts/
 normalized/
 raw/rendered/
 eval/
+docs/pw.md
+pinescript_builder/
+raw/guide/
+raw/reference/
+src/tradingview_ingest/__pycache__/
