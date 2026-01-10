@@ -1,0 +1,7 @@
+{
+  "chunk_count": 866,
+  "created_at_utc": "2026-01-10T01:05:22.539039Z",
+  "embedding_dim": 384,
+  "index_id": "v5_20260109T231559Z",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}
