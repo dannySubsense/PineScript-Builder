@@ -1,0 +1,52 @@
+[
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:an_@description",
+    "symbol_type": "an"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:const_adjustment.dividends",
+    "symbol_type": "const"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:fun_alert",
+    "symbol_type": "fun"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:kw_and",
+    "symbol_type": "kw"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:op_!=",
+    "symbol_type": "op"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:type_array",
+    "symbol_type": "type"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:var_bar_index",
+    "symbol_type": "var"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:an_@enum",
+    "symbol_type": "an"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:an_@field",
+    "symbol_type": "an"
+  },
+  {
+    "expected_link_type": "exact_name_match",
+    "reference_symbol_id": "3ab22ecc3e236172b3714dba6612058bf1c309efe8e7a1b0f53a8bd8ba7ea9ab:an_@function",
+    "symbol_type": "an"
+  }
+]

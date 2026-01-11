@@ -1,0 +1,9 @@
+v5_total=866
+link_type_counts={"exact_name_match": 866}
+v5_to_v6_link_rate=1.000000
+ambiguity_rate_per_step={"canonical_name_match": 0, "exact_name_match": 0, "exact_reference_id_match": 0}
+one_row_per_v5_symbol=True
+duplicate_reference_symbol_id_check=True
+determinism_verification=rerun_in_memory_compare:True
+spotcheck_result=PASS
+spotcheck_selection_criteria=first symbol per symbol_type (sorted), then fill by v5 order to 10

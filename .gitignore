@@ -1,5 +1,16 @@
 # Pipeline artifacts
-artifacts/
+artifacts/**
+!artifacts/
+!artifacts/rag_indexes/
+!artifacts/rag_indexes/v5/
+!artifacts/rag_indexes/v5/v5_20260109T231559Z/
+!artifacts/rag_indexes/v5/v5_20260109T231559Z/chunks.jsonl
+!artifacts/rag_indexes/v5/v5_20260109T231559Z/index_meta.json
+!artifacts/embeddings/
+!artifacts/embeddings/v5/
+!artifacts/embeddings/v5/v5_20260109T231559Z/
+!artifacts/embeddings/v5/v5_20260109T231559Z/embeddings.jsonl
+!artifacts/embeddings/v5/v5_20260109T231559Z/embeddings_meta.json
 normalized/**
 !normalized/
 !normalized/v5/

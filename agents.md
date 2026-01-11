@@ -179,5 +179,124 @@ If a change threatens auditability, version safety, or reproducibility, it must 
 
 ---
 
+## AGENT OPERATING MODES
+
+Mode A — AUTHORING MODE
+Purpose:
+- Exploration, ideation, and design drafting.
+- Used when requirements are fluid or discovery-oriented.
+
+Agent permissions:
+- MAY draft QPLANs or design documents.
+- MAY propose schemas, paths, and heuristics.
+- Output is advisory and subject to revision.
+
+Constraints:
+- No execution.
+- No file writes unless explicitly authorized.
+- All outputs are provisional.
+
+When to use:
+- Early research phases
+- UI/UX exploration
+- Ranking heuristics experiments
+- Non-canonical prototypes
+
+────────────────────────────────────────
+
+Mode B — EXECUTION MODE (DEFAULT FOR PRODUCTION PHASES)
+Purpose:
+- Deterministic execution against an approved, immutable plan.
+
+Agent permissions:
+- MUST treat provided QPLAN/QCODE as AUTHORITATIVE and IMMUTABLE.
+- MAY only:
+  (a) Acknowledge and execute exactly as instructed, or
+  (b) Report blocking issues without rewriting the plan.
+
+Constraints:
+- NO re-authoring, summarizing, or “improving” plans.
+- NO path, schema, or enum substitutions.
+- NO omissions of “obvious” sections.
+- Any deviation is a failure.
+
+When to use:
+- Canonical ingestion
+- Cross-version linking
+- Semantic enrichment
+- RAG orchestration
+- Any phase producing long-lived artifacts
+
+────────────────────────────────────────
+
+MODE DECLARATION REQUIREMENT
+
+Every phase prompt MUST declare its mode explicitly at the top:
+
+Example:
+MODE: B — EXECUTION MODE
+
+Phases without an explicit mode declaration are INVALID.
+
+## QDISCOVERY — READ-ONLY DISCOVERY STEP (MANDATORY WHEN REQUIRED)
+
+Before any Mode B QPLAN or QCODE that declares concrete filesystem paths,
+a read-only discovery step (QDISCOVERY) MUST be performed if those paths
+have not been previously confirmed.
+
+QDISCOVERY characteristics:
+- READ-ONLY access only
+- No file writes, no artifact generation
+- No planning or execution logic
+- Purpose is to establish ground-truth paths and artifact existence
+
+Rules:
+- Advisors MUST NOT assume filesystem paths in Mode B without discovery.
+- All concrete paths used in Mode B QPLANs MUST originate from either:
+  (a) a prior QDISCOVERY report, or
+  (b) a previously committed, authoritative manifest.
+- Failure to perform QDISCOVERY when required invalidates subsequent audits.
+
+QDISCOVERY is a prerequisite step, not a separate operating mode.
+
+## MODE B — DISCOVERY OUTPUT COMPRESSION RULE (AUTHORITATIVE)
+
+In Mode B, during QDISCOVERY steps only, the agent MAY produce
+bounded, summarized discovery outputs when explicitly requested.
+
+Allowed:
+- Enumerated lists of confirmed paths or field names
+- Identification of stable identifiers vs absent fields
+- High-level schema summaries (field names only)
+
+Forbidden:
+- Full record dumps
+- Raw HTML blobs
+- Large verbatim samples
+- Inference, renaming, or schema correction
+
+Purpose:
+- Prevent cognitive overload
+- Preserve advisor situational awareness
+- Avoid shifting full repository-mapping burden onto the advisor
+
+This allowance does NOT permit:
+- Plan authorship
+- Field substitution
+- Silent mutation
+- Execution without explicit approval
+
+## MODE B RESPONSE RULE
+
+In Mode B:
+- QPLAN prompts expect ACKNOWLEDGMENT only.
+- QDISCOVERY prompts MUST explicitly request a summarized report.
+- QCODE prompts produce artifacts, not prose.
+
+Absence of an explicit report request implies ACK-only behavior.
+
+
+
+
 **END OF AGENTS.md**
 
